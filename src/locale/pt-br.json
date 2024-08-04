@@ -1,0 +1,24 @@
+{
+    "translation": {
+        "audioOptions": "Reproduzir áudio ao finalizar?",
+        "enableDarkMode": "Ativar modo escuro?",
+        "disableDarkMode": "Desativar modo escuro?",
+        "question": "Quanto tempo você gostaria de focar?",
+        "hours": "horas",
+        "minutes": "minutos",
+        "seconds": "segundos",
+        "run": "Iniciar",
+        "block": "Bloquear sites",
+        "pause": "Pausar",
+        "reset": "Resetar",
+        "donate": "Doar",
+        "optionsPage": "Opções",
+        "notifications": "Habilitar notificações ao finalizar?",
+        "optionsPageTitle": "Focus Mode - Opções",
+        "emptyList": "Nenhum URL bloqueado.",
+        "invalidUrl": "URL inválido. Por favor, insira um domínio válido (ex: youtube.com).",
+        "nullUrl": "URL não pode ser vazio.",
+        "repeatedUrl": "URL já está na lista.",
+        "confettiEnabled": "Jogar confetes ao finalizar?"
+    }
+}

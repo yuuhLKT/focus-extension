@@ -1,0 +1,24 @@
+{
+    "translation": {
+        "audioOptions": "Play audio on finish?",
+        "enableDarkMode": "Enable dark node?",
+        "disableDarkMode": "Disable dark node?",
+        "question": "How long would you like to focus?",
+        "hours": "hours",
+        "minutes": "minutes",
+        "seconds": "seconds",
+        "run": "Run",
+        "block": "Block sites",
+        "pause": "Pause",
+        "reset": "Reset",
+        "donate": "Donate",
+        "optionsPage": "Options",
+        "optionsPageTitle": "Focus Mode - Options",
+        "notifications": "Enable notifications on finish?",
+        "emptyList": "No URLs blocked.",
+        "invalidUrl": "Invalid URL. Please enter a valid URL.",
+        "nullUrl": "URL cannot be empty.",
+        "repeatedUrl": "URL already exists.",
+        "confettiEnabled": "Enable confetti on finish?"
+    }
+}

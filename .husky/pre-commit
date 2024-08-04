@@ -1,0 +1,27 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run lint-staged
+npx lint-staged
+
+# Capture the exit code of lint-staged
+exitCode=$?
+
+if [ $exitCode -ne 0 ]; then
+  echo "Linting failed. Running formatter..."
+
+  # Run your formatting script
+  npm run style:fix
+
+  # Add formatted files
+  git add .
+
+  # Run lint-staged again after formatting
+  npx lint-staged
+
+  # Update exit code
+  exitCode=$?
+fi
+
+# Exit with the appropriate exit code
+exit $exitCode
