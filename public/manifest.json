@@ -29,7 +29,7 @@
             "type": "module"
         }
     ],
-    "permissions": ["alarms", "storage", "tabs", "activeTab", "scripting", "notifications"],
+    "permissions": ["alarms", "storage", "activeTab", "scripting", "notifications"],
     "host_permissions": ["<all_urls>"],
     "web_accessible_resources": [
         {
