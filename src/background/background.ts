@@ -12,6 +12,7 @@ chrome.runtime.onInstalled.addListener(() => {
     setStorage('timer', { isRunning: false, hours: 0, minutes: 0, seconds: 0 }).catch(
         console.error
     );
+    setStorage('notificationEnabled', false).catch(console.error);
     showRestartBrowserNotification();
 });
 
