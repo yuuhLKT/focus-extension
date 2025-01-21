@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Focus Mode",
     "description": "An extension for Chrome that will help you improve your focus on studies or work by blocking selected websites that distract you.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "options_ui": {
         "page": "options.html",
         "open_in_tab": true

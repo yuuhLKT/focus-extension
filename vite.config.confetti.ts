@@ -1,31 +1,31 @@
-import react from "@vitejs/plugin-react-swc";
+import react from '@vitejs/plugin-react-swc';
 import { defineConfig } from 'vite';
-import packageJson from './package.json' assert { type: 'json' };
+import packageJson from './package.json' with { type: 'json' };
 
-const { name } = packageJson
+const { name } = packageJson;
 
-console.info(' ---> Starting Confetti Content Script Build 🤞 <---')
+console.info(' ---> Starting Confetti Content Script Build 🤞 <---');
 
 export default defineConfig({
     plugins: [react()],
 
     build: {
-        outDir: ('dist'),
+        outDir: 'dist',
         emptyOutDir: false,
 
         lib: {
-            entry: ('src/utils/throwConfetti.ts'),
+            entry: 'src/utils/throwConfetti.ts',
             name: name,
-            formats: ['iife']
+            formats: ['iife'],
         },
 
         rollupOptions: {
             output: {
                 entryFileNames: 'confetti_script.js',
-                extend: true
-            }
-        }
+                extend: true,
+            },
+        },
     },
 
-    publicDir: false
-})
+    publicDir: false,
+});
