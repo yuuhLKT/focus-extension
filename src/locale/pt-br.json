@@ -19,6 +19,7 @@
         "invalidUrl": "URL inválido. Por favor, insira um domínio válido (ex: youtube.com).",
         "nullUrl": "URL não pode ser vazio.",
         "repeatedUrl": "URL já está na lista.",
-        "confettiEnabled": "Jogar confetes ao finalizar?"
+        "confettiEnabled": "Jogar confetes ao finalizar?",
+        "restartMessage": "Por favor, reinicie o navegador para finalizar a instalação da extensão."
     }
 }

@@ -19,6 +19,7 @@
         "invalidUrl": "Invalid URL. Please enter a valid URL.",
         "nullUrl": "URL cannot be empty.",
         "repeatedUrl": "URL already exists.",
-        "confettiEnabled": "Enable confetti on finish?"
+        "confettiEnabled": "Enable confetti on finish?",
+        "restartMessage": "Please restart your browser to finish the extension installation."
     }
 }
